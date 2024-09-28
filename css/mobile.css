@@ -1,0 +1,106 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 160
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+@media (max-width: 756px) {
+    #nav-bar nav.container {
+        flex-direction: column; 
+    }
+    #nav-bar nav.container > div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;
+        justify-content: start;
+    }
+    #nav-bar .container a {
+        display: block;
+        width: 100%;
+        border: none;
+        text-align: left;
+    }
+    #nav-bar a {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding-left: 30px;
+    }
+    #nav-bar a:hover {
+        background-color: #eee;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .nav div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+    }
+    #nav-bar a.left-border {
+        border: none;
+    }
+    
+    #nav-bar a.left-and-right-border {
+        border: none;
+    }
+    #about .containerr {
+        grid-template-columns: 1fr;
+    }
+    #about .containerr > div {
+        padding: 24px;
+    }
+    #job-info .containerr {
+        gap: 20px !important;
+        grid-template-columns: 1fr;
+    }
+    #certificate .containerr {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .cardd {
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-left: 0;
+        margin: 0 auto;
+        max-width: 250px;
+        border-bottom: 1px solid #f2701b;
+        height: 320px !important;
+    }
+    .cardd img {
+        height: 180px;
+        max-width: 250px;
+    }
+    .certificate_wrap {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .border_left {
+        border-left: none;
+    }
+    .border_bottom {
+        border: none;
+    }
+    .role {
+        flex-direction: column;
+    }
+    .year {
+        width: fit-content;
+    }
+    .wrap {
+        grid-template-columns: 1fr !important;
+    }
+    .cardd_project {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .list_link a {
+        font-size: 12px;
+    }
+} 
